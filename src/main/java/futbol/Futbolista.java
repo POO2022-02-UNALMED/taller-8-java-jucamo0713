@@ -36,7 +36,7 @@ public abstract class Futbolista implements Comparable {
     }
 
     public abstract boolean jugarConLasManos();
-    @Override
+
     public boolean equals(Object o) {
         return this == o;
     }

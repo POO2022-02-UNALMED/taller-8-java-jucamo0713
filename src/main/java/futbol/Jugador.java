@@ -23,8 +23,8 @@ public class Jugador extends Futbolista{
 
 
     public int compareTo(Object o) {
-        if (!(o instanceof Futbolista that)) return 0;
-        return Math.abs(that.getEdad()-this.getEdad());
+        if (!(o instanceof Futbolista)) return 0;
+        return Math.abs(((Futbolista) o).getEdad()-this.getEdad());
     }
 
 

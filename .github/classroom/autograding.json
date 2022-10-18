@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test Futbolista",
+      "setup": "",
+      "run": "gradle test --tests *TestFutbolista",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test Jugador",
+      "setup": "",
+      "run": "gradle test --tests *TestJugador",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test Portero",
+      "setup": "",
+      "run": "gradle test --tests *TestPortero",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
